@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="css/Menu.css" />
+    <link rel="stylesheet" href="css/_proyectmenu.css" />
     <meta
       name="viewport"
       content="width=
     , initial-scale=1.0"
     />
+    <!--empieza el menu-->
     <title>Menu</title>
   </head>
   <body>
@@ -24,19 +25,33 @@
         <ul class="main-nav estilo-nav">
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Acerca de</a></li>
-          <li>
-            <span>Servicios</span>
-            <ul>
-              <li><a href="#">Mantenimiento de BD</a></li>
-              <li><a href="#">Asesoria informática</a></li>
-              <li><a href="#">Crear base de datos</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Contacto</a>
-          </li>
-        </ul>
+          <li><a href="#">Servicios</a></li>
+          </ul>
       </div>
     </nav>
+    <!--inicia la barra de contacto-->
+<div class="total">
+  <div class="barra">
+      <div class="parte1">
+          <ul>
+              <li> <a href="telefono" target="_blank">telefono/  </a></li>
+              <li> <a href="https://twitter.com" target="_blank">twitter/  </a></li>
+              <li> <a href="https://facebook.com" target="_blank">facebook/  </a></li>
+              <li> <a href="https://instagram.com" target="_blank">instagram/  </a></li>
+              
+  
+          </ul>
+         
+      </div>
+      <div class="parte2">
+          <form action=""method="post">
+              <input type="text" placeholder="buscar" class="cajabuscar" id="buscar">
+              <button onclick="buscar();" class="btnbuscar">buscar</button>
+          </form>
+      </div>
+  </div>
+</div>
+<!--termina la barra del contacto-->
+
   </body>
 </html>
